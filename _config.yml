@@ -31,8 +31,8 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
