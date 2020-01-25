@@ -7,5 +7,5 @@ date:   2020-01-25 9:00:00
 mathjax: false
 ---
 
-Chris Alberti, Kenton Lee, Michael Collins(2019), A BERT Baseline for the Natural Questions
+Chris Alberti, Kenton Lee, Michael Collins. 2019. A BERT Baseline for the Natural Questions
 
