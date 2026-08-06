@@ -4,17 +4,30 @@ layout: landing
 
 <div class="book-hero">
 
-# Documentation {anchor=false}
-This content is rendered from `content/index.md`
+# Welcome to Kun-Lin Lee's Lib {anchor=false}
+{{% columns ratio="1:9" %}}
+- <img src="profile.jpg" alt="" width="200" />
+- Hi, I am Kun-Lin Lee (he/him), a research engineer from Taiwan.<br>
+    This is my personal library of notes on various topics,<br>
+    mainly in **Mechanistic Interpretability** and **Natural Language Processing**.<br>
+    I hope you find something useful or interesting here.<br>
 
-{{<button href="/docs/">}}Action{{</button>}}
+    - Check **[Documentation](/docs/)** for more structured content.<br>
+    - Check **[Posts](/posts/)** for more timely updates and personal thoughts.<br>
+    
+    I might be wrong, but in the spirit of being "less wrong,"<br>
+    I would appreciate it if you could point out any mistakes or provide feedback.
+
+    If you find this library useful, please consider supporting these organizations:<br>
+
+    - **[Machine Alignment, Transparency, and Security (MATS)](https://www.matsprogram.org/donate)**: MATS is an independent research and educational seminar program that connects talented researchers with top mentors in the fields of AI alignment, transparency, and security.<br>
+    - **[Stanford Institute for Human-Centered AI (HAI)](https://hai.stanford.edu/about/giving-stanford-hai)**: HAI focuses on advancing ethical and impactful AI.<br>
+    - **[Center for Human-Compatible AI (CHAI)](https://humancompatible.ai/donate/)**: CHAI is a multi-institution research group based at UC Berkeley, whose goal is to develop the conceptual and technical wherewithal to reorient the general thrust of AI research towards provably beneficial systems.<br>
+    
+    It is important to support these organizations because they are working towards ensuring that AI technologies are developed and deployed in ways that are safe, ethical, and aligned with human values. By supporting these organizations, you can contribute to the advancement of AI research and help shape the future of AI in a positive direction.<br>
+
+    Disclaimer: I am not affiliated with any of these organizations, and I do not receive any compensation for promoting them. I am simply sharing information about these organizations because I believe in their missions and want to encourage others to support them as well.<br>
+
+{{% /columns %}}
 
 </div>
-
-{{% columns %}}
-- ## Nunc infans rigidique etiam
-  Lorem markdownum quondam mediamque visis aevi, peregrinaeque Aeacidae, vita vos? Iacet exhortatus picta plures; placet Pandrose tremescere; mediis aera enim resonat scinditur dea nocuit fabrilis est per. Signum pater paventes pectore maris humo, aegide illos religarat si! Romana secutis erat, cum omnia vincere virtutem nomine ascensu poenas? Gradus cum quoque potitur.
-
-- ## Carmina fallacia polluit lenta
-  Lorem markdownum, omnes exire lumen noctis concava multaque fieri inplevere oculi *nisi sua* subigebat iamque? Herse sum `hardBox`, pervenit linguae altera. Clymenen magna illi latera parent omnia felicia ter bifurcum nulla atque alta cannas ita? Pariter stetit carina adspexerit spargentem festa concrevit `process_upnp` primos! Huic et sulphure paelice iuppiter vitat quem genitas, fera vertice relinque.
-{{% /columns %}}

@@ -1,8 +1,8 @@
 baseURL: http://0.0.0.0:1313/
-title: Documentation
+title: Kun-Lin Lee's Lib
 theme: hugo-book
 
-copyright: "This is a copyright placeholder"
+copyright: "Opinions are my own."
 
 # Book configuration
 disablePathToLower: true
@@ -42,14 +42,17 @@ menu:
     - name: "Documentation"
       pageRef: "/docs/"
       weight: 10
+    - name: "Post"
+      pageRef: "/posts/"
+      weight: 10
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book/"
-      weight: 20
+      url: "https://github.com/LeeKLTW"
+      weight: 10
 
   # before: []
   after:
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
+      url: "https://github.com/LeeKLTW"
       weight: 10
 
 taxonomies:
@@ -58,25 +61,25 @@ taxonomies:
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme: "light"
+  BookTheme: "auto"
 
   # (Optional, default none) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
   # You can also specify this parameter per page in front matter.
-  # BookToC: true
+  BookToC: true
 
   # (Optional, default favicon.png) Set the path to a favicon file.
   # If the favicon is /static/favicon.png then the path would be favicon.png
-  # BookFavicon: "favicon.png"
+  BookFavicon: "favicon.png"
 
   # (Optional, default none) Set the path to a logo for the book.
   # If the logo is /static/logo.png then the path would be logo.png
-  # BookLogo: /logo.png
+  BookLogo: /logo.png
 
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  # BookSection: docs
+  BookSection: docs
 
   # (Optional, default none) Set template for commit link for the page. Requires enableGitInfo.
   # When set enabled 'Last Modified' and a link to the commit in the footer of the page.
@@ -92,7 +95,7 @@ params:
   # - In git information
   # - In blog posts
   # https://gohugo.io/functions/time/format/
-  # BookDateFormat: "January 2, 2006"
+  BookDateFormat: "January 2, 2006"
 
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
@@ -103,7 +106,7 @@ params:
   # By default partals/docs/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
-  BookComments: false
+  BookComments: true
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
