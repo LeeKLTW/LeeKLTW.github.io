@@ -1,6 +1,8 @@
 ---
 menu:
   after:
-    weight: 5
-title: Blog
+    weight: 1
+title: Post
+params:
+  bookCollapseSection: false
 ---
